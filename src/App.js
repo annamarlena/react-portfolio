@@ -1,14 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './components//Header';
+import Project from './components//Project';
+import Footer from './components//Footer';
 
 function App() {
   return (
     <div className="App">
       
-      <Header />
+      <Header title="A. Marlena Keller" subtitle="Portfolio"/>
 
-      <header className="App-header">
+      <Project>
+         {/* --- this styling will apply to each item passed through here --- */}
+        <div style={{ backgroundColor: "yellow" }}>  
+          <p>Image and link to project here.</p>
+        </div>
+
+      </Project><br/>
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. React is awesome!
@@ -19,9 +29,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 
         </a>
-      </header>
+      </header> */}
+
+      <Footer />
     </div>
   );
 }

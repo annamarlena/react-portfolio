@@ -1,11 +1,15 @@
 // import './header.css'; <--- to be created later
 
-function Header() {
+function Header(props) {
+
+// In this space you can do regular JavaScript
+
   return(
     <div>
-        <h1>A. Marlena Keller - a Portfolio</h1>
+        <h1>{ props.title }</h1>
+        <h2>{ props.subtitle }</h2>
     </div>
   )
 }
 
-export default Header;
+export default Header; 
