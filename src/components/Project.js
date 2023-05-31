@@ -2,16 +2,18 @@
 
 function Project(props) {
 
-  const showMyAboutMe = true;
-  const showMyPortfolio = false;
+  const showMyAboutMe = false;
+  const showMyPortfolio = true;
   const showMyContact = false;
   const showMyResume = false;
 
   return (
     <div style={{ border: "2px solid teal" }}>
 
-      { showMyAboutMe === true && (
+      { showMyAboutMe ? (
         <h2>About Me</h2>
+      ) : (
+        <h2>My Portfolio</h2>
       )}
 
       { props.children }
