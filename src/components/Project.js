@@ -2,8 +2,8 @@
 
 function Project(props) {
 
-  const showMyAboutMe = false;
-  const showMyPortfolio = true;
+  const showMyAboutMe = true;
+  const showMyPortfolio = false;
   const showMyContact = false;
   const showMyResume = false;
 

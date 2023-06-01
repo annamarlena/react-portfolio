@@ -4,37 +4,6 @@ import Header from './components//Header';
 import Project from './components//Project';
 import Footer from './components//Footer';
 
-// function AboutButton(){
-//   return (
-//     <button>
-//       About
-//     </button>
-//   )
-// }
-
-// function PortfolioButton(){
-//   return (
-//     <button>
-//       Portfolio
-//     </button>
-//   )
-// }
-
-// function ResumeButton(){
-//   return (
-//     <button>
-//       Resume
-//     </button>
-//   )
-// }
-
-// function ContactButton(){
-//   return (
-//     <button>
-//       Contact
-//     </button>
-//   )
-// }
 
 const navLinks = [
   { title: "About", isCurrent: true, id: 1 },
@@ -43,12 +12,12 @@ const navLinks = [
   { title: "Contact", isCurrent: false, id: 4 }
 ]
 
-export default function App() {
+function App() {
 
     const listLinks = navLinks.map( link =>
       <li key={link.id}
       style={{
-        color: link.isCurrent ? "#116D6E" : "black"
+        color: link.isCurrent ? "#FFB84C" : "black"
       }}
       >
         { link.title }
@@ -57,22 +26,17 @@ export default function App() {
 
   return (
     <div className="App">
-      
-      <ul>listLinks</ul>
-      
+     
+     <ul>{listLinks}</ul>
+     
       <Header> 
         <div>title="A. Marlena Keller" subtitle="Portfolio"</div>
-       
-          {/* <AboutButton about="AboutButton" />
-          <PortfolioButton portfolio="PortfolioButton" />
-          <ResumeButton resume="ResumeButton" />
-          <ContactButton contact="ContactButton" /> */}
        
       </Header>
  
       <Project>
          {/* --- this styling will apply to each item passed through here --- */}
-        <div style={{ backgroundColor: "yellow" }}>  
+        <div style={{ backgroundColor: "#f0df7f" }}>  
           <p>Image and link to project here.</p>
         </div>
 
@@ -83,4 +47,4 @@ export default function App() {
   );
 }
 
-
+export default App
