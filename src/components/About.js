@@ -1,14 +1,12 @@
 
 
 
-function About(props) {
+function About() {
 
   return (
-    <>
-      <li>onClick={() => props.setCurrentPage("About")}</li>
+    <div style={{ border: "5px solid #BFDB38" }}>
       <p>This is the About page.</p>
-   
-    </>
+    </div>
   )
 }
 

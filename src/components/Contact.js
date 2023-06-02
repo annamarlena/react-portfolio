@@ -4,9 +4,9 @@
 function Contact() {
 
   return (
-    <>
-     <p>This is the Contact page.</p>
-    </>
+    <div style={{ border: "5px solid #BFDB38" }}>
+      <p>This is the Contact page.</p>
+    </div>
   )
 }
 
