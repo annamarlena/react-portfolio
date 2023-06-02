@@ -1,44 +1,40 @@
+import { useState } from "react"
 import logo from './logo.svg';
 import './App.css';
 import Header from './components//Header';
-import Project from './components//Project';
 import Footer from './components//Footer';
+import  About from './components/About';
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
-
-const navLinks = [
-  { title: "About", isCurrent: true, id: 1 },
-  { title: "Portfolio", isCurrent: false, id: 2 },
-  { title: "Resume", isCurrent: false, id: 3 },
-  { title: "Contact", isCurrent: false, id: 4 }
-]
 
 function App() {
-
-    const listLinks = navLinks.map( link =>
-      <li key={link.id}
-      style={{ color: link.isCurrent ? "#FFB84C" : "black" }}
-      >
-        { link.title }
-      </li>
-    )
+  const [currentPage, setCurrentPage] = useState("About")
 
   return (
-    <div className="App">
-      <Header> 
-        {/* <div>title="A. Marlena Keller" subtitle="Portfolio"</div>
-        <ul>{listLinks}</ul> */}
-      </Header>
- 
-      <Project>
-         {/* --- this styling will apply to each item passed through here --- */}
-        {/* <div style={{ backgroundColor: "#f0df7f" }}>  
-          <p>Image and link to project here.</p>
-        </div> */}
-
-      </Project><br/>
-
-      <Footer />
-    </div>
+    <div>
+    <header class="linkRow" >
+      <Header setCurrentPage={setCurrentPage}/>
+    </header>
+    <main>
+    {currentPage == "About" && (
+      <About/>
+    )}
+    {currentPage == "Portfolio" && (
+      <Portfolio/>
+    )}
+    {currentPage == "Contact" && (
+      <Contact/>
+    )}
+    {currentPage == "Resume" && (
+      <Resume/>
+    )}
+    </main>
+    <footer>
+      <Footer/>
+    </footer>
+  </div>
   );
 }
 
