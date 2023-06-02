@@ -2,21 +2,11 @@
 
 function Project(props) {
 
-  const showMyAboutMe = true;
-  const showMyPortfolio = false;
-  const showMyContact = false;
-  const showMyResume = false;
-
   return (
-    <div style={{ border: "2px solid teal" }}>
-
-      { showMyAboutMe ? (
-        <h2>About Me</h2>
-      ) : (
-        <h2>My Portfolio</h2>
-      )}
+    <div style={{ border: "5px #BFDB38" }}>
 
       { props.children }
+
     </div>
   )
 }

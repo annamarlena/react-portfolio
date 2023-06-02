@@ -16,9 +16,7 @@ function App() {
 
     const listLinks = navLinks.map( link =>
       <li key={link.id}
-      style={{
-        color: link.isCurrent ? "#FFB84C" : "black"
-      }}
+      style={{ color: link.isCurrent ? "#FFB84C" : "black" }}
       >
         { link.title }
       </li>
@@ -26,19 +24,16 @@ function App() {
 
   return (
     <div className="App">
-     
-     <ul>{listLinks}</ul>
-     
       <Header> 
-        <div>title="A. Marlena Keller" subtitle="Portfolio"</div>
-       
+        {/* <div>title="A. Marlena Keller" subtitle="Portfolio"</div>
+        <ul>{listLinks}</ul> */}
       </Header>
  
       <Project>
          {/* --- this styling will apply to each item passed through here --- */}
-        <div style={{ backgroundColor: "#f0df7f" }}>  
+        {/* <div style={{ backgroundColor: "#f0df7f" }}>  
           <p>Image and link to project here.</p>
-        </div>
+        </div> */}
 
       </Project><br/>
 

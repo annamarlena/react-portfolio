@@ -3,7 +3,7 @@
 function Footer() {
 
   return (
-    <div style={{ border: "1px solid black" }}>
+    <div style={{ border: "5px #FC7300" }}>
     </div>
   )
 }

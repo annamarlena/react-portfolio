@@ -7,9 +7,10 @@ function Header(props) {
 
 
   return(
-    <div style={{ border: "2px solid red" }}>
+    <div style={{ border: "5px #1F8A70" }}>
       <h1>{ props.title }</h1>
       <h2>{ props.subtitle }</h2>
+      <ul>{ props.navigation }</ul>
 
     </div>
   )
