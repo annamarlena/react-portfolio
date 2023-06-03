@@ -4,8 +4,8 @@
 function Resume() {
 
   return (
-    <div style={{ border: "5px solid #BFDB38" }}>
-      <p>This is the Resume page.</p>
+    <div>
+      <br></br><h2>My Resume</h2><br></br>
     </div>
   )
 }

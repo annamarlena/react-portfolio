@@ -1,11 +1,13 @@
-
+import './footer.css';
 
 function Footer() {
 
   return (
-    <div style={{ border: "5px solid #FC7300" }}>
-      <p>This is the footer</p>
-    </div>
+    <footer className="footer">
+      <div>
+        <p>Built using React and React Bootstrap</p>
+      </div>
+    </footer>
   )
 }
 

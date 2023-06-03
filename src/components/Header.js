@@ -1,30 +1,26 @@
-// import './header.css'; <--- to be created later
+import './header.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
 
 
   return(
     <header className="header">
-      <div style={{ border: "5px solid #1F8A70" }}>
-        <h1>A. Marlena Keller</h1>
+      <div>
+       <br></br> <h1>A. Marlena Keller</h1><br></br>
 
-        <nav>
-          <ul>
-            <li>
-              <a href="/about">About</a>
-            </li>
-            <li>
-              <a href="/portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="/resume">Resume</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Nav className="justify-content-end">
+              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+              <Nav.Link href="/resume">Resume</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
+            </Nav>
+          </Container>
+        </Navbar>
       </div>
     </header>
   )
