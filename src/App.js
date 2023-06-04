@@ -15,8 +15,7 @@ function App() {
   const allPages = [ "/about", "/portfolio", "/contact", "/resume" ]
 
   useEffect(() => {
-    // http://localhost:3000/About
-
+  
     const page = window.location.href.split(window.location.host)[1].toLowerCase()
 
     if( !allPages.includes(page) ){

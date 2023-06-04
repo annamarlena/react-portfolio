@@ -13,14 +13,13 @@ The purpose of this project was to create a responsive, professional portfolio w
 
 ![Here's a screenshot of the About Me page](./src/components/screenshot.png)
 
-## Image Attribution
 
-I downloaded the background image for my main body, as well as the social media icons. 
+### Image Attribution
 
-- [x] Background image from Freepik.com
+- [x] Background image from Freepik.com.
   [www.freepik.com/free-vector/gradient-art-deco-pattern-design_14571380.htm#query=art%20deco%20background&position=14&from_view=keyword&track=ais](www.freepik.com/free-vector/gradient-art-deco-pattern-design_14571380.htm#query=art%20deco%20background&position=14&from_view=keyword&track=ais)
 
-- [x] Icon images downloaded from Flaticon.com 
+- [x] Icon images from Flaticon.com.
   LinkedIn and GitHub icons created by riajulislam. Stack Overflow icon created by Xinh Studio.
   [www.flaticon.com/free-icons](www.flaticon.com/free-icons)
 
