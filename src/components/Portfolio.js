@@ -59,32 +59,18 @@ function Portfolio() {
                   </Card.Body>
                 </Card>
             </Col>
-            <Col lg={true}>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={placeholder} />
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the
-                      bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="dark">Deployed App</Button>
-                    <Button variant="dark">GitHub Repo</Button>
-                  </Card.Body>
-                </Card>
-            </Col>
           </Row>
 
           <Row>
-          <Col lg={true}>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" className="skyInvaders" src={skyInvaders} />
-                <Card.Body>
-                  <Card.Title>Sky Invaders</Card.Title>
-                  <Card.Text>
-                    A simple JavaScript/Tumult Hype game. This is a bird-themed version of Space Invaders.
-                  </Card.Text>
-                  <Button href="https://annamarlena.github.io/SpaceInvaders/" target="_blank" variant="dark">GitHub Pages</Button>
+            <Col lg={true}>
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" className="skyInvaders" src={skyInvaders} />
+                  <Card.Body>
+                    <Card.Title>Sky Invaders</Card.Title>
+                      <Card.Text>
+                        A simple JavaScript/Tumult Hype game. This is a bird-themed version of Space Invaders.
+                     </Card.Text>
+                    <Button href="https://annamarlena.github.io/SpaceInvaders/" target="_blank" variant="dark">GitHub Pages</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -109,6 +95,37 @@ function Portfolio() {
                       A bilingual website I built for a Canadian client a few years ago using a template from HTML5UP.
                     </Card.Text>
                     <Button href="https://www.contracteurshh.ca/indexEng.html" target="_blank" variant="dark">Deployed App</Button>
+                  </Card.Body>
+                </Card>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col lg={true}>
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={placeholder} />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the
+                      bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="dark">Deployed App</Button>
+                    <Button variant="dark">GitHub Repo</Button>
+                  </Card.Body>
+                </Card>
+            </Col>
+            <Col lg={true}>
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={placeholder} />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the
+                      bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="dark">Deployed App</Button>
+                    <Button variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>
             </Col>

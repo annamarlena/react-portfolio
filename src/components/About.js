@@ -22,14 +22,13 @@ function About() {
             <section className="section1">
               <h4>Hi, I'm Marlena!</h4>
               <p>I'm a recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an associate's degree in Computer Programming from Saint Paul College in Saint Paul, MN.</p>
-              <p>I started coding for fun in 2012. I earned an associate's in programming in 2017 but never worked in the field. I'm looking to make a career change and open to relocating. React is my jam!</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
+              <p>I started coding for fun in 2012, then earned an associate's in programming in 2017</p>
             </section>
           </Col>
         </Row>
           <section className="section2">
             <h3>Some More Info</h3>
-            <p>Skills include: JavaScript, HTML, CSS, jQuery, React, Node, MySQL, MongoDB, Mongoose, Bootstrap, Bulma, Express, PWA, Responsive Design, Local Storage, Session Storage, User Authentication, MERN Stack, CI, MVC, API, Rest, JSON, AJAX, HTTP Request Methods, Agile, Heroku, Git, GitHub, Scripts. I also have some past experience with Python and Java, but it's been years.</p>
+            <p>Skills include: JavaScript, HTML, CSS, jQuery, React, Node, MySQL, MongoDB, Mongoose, Bootstrap, Bulma, Express, PWA, Responsive Design, Local Storage, Session Storage, User Authentication, MERN Stack, CI, MVC, API, Rest, JSON, AJAX, HTTP Request Methods, Agile, Heroku, Git, GitHub, Scripts, and GIMP for photo editing. I also have some past experience with Python and Java, but it's been years.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
           </section>

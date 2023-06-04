@@ -1,5 +1,4 @@
   .header {
-    color: #f4b955;
     background-color: black;
     padding: 10px;
     margin: 0px;
@@ -7,9 +6,9 @@
     font-family: 'Courier New', Courier, monospace;
   }
 
-  h1 {
-    font-family: monospace;
-    text-align: center;
+  .signature {
+    margin: auto;
+    width: 50%;
   }
 
   .nav-link {

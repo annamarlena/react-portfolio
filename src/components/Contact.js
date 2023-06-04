@@ -30,7 +30,6 @@ function Contact() {
         </Form.Group>
           <Button variant="dark" type="submit">Submit</Button>
         </Form>
-        <p>annamarlena310@gmail.com</p>
       </section>
 
       <section className="profiles">
