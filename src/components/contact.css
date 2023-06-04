@@ -1,0 +1,23 @@
+form {
+  max-width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+
+.contactForm {
+  background-color: white;
+  outline: 2px solid #f4b955;
+  opacity: 80%;
+  padding: 10px;
+  margin: 20px;
+}
+
+.stackOverflow, .gitHub, .linkedIn {
+  height: 200px;
+  margin: 20px;
+}
+
+.profiles {
+  padding-top: 20px;
+  margin-bottom: 200px;
+}

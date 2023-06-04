@@ -4,8 +4,13 @@
   left: 0;
   width: 100%;
   color: #f4b955;
- font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   background-color: black;
   padding: 10px;
   text-align: center;
+}
+
+.stackoverflow, .github, .linkedin {
+  height: 30px;
+  margin: 20px;
 }

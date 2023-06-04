@@ -12,6 +12,12 @@
     text-align: center;
   }
 
-  .nav-link.active {
-    color: #f4b955 !important;
+  nav {
+    margin: auto;
   }
+
+  .nav-link.active {
+    color: #f4b955;
+  }
+
+  

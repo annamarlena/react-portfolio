@@ -11,7 +11,7 @@ function Portfolio() {
 
   return (
     <div>
-      <br></br><h2>My Portfolio</h2><br></br>
+      <br></br><h1>My Portfolio</h1><br></br>
       <section className="addPadding">
       <Container className="background">
           <Row>

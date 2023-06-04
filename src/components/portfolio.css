@@ -1,4 +1,8 @@
 .addPadding {
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+}
+
+.card {
+  outline: 2px solid #f4b955;
 }

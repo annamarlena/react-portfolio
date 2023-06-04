@@ -2,11 +2,13 @@
 border: 20px solid white;
 margin: 50px;
 height: 400px;
+outline: 2px solid #f4b955;
 }
 
 .section1, .section2 {
   background-color: white;
   padding: 30px;
+  outline: 2px solid #f4b955;
 }
 
 .section1 {
@@ -15,7 +17,7 @@ height: 400px;
 }
 
 .section2 {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   margin-left: 50px;
   margin-right: 50px;
 }
