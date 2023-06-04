@@ -10,12 +10,11 @@ function Contact() {
 
   return (
     <div>
-
       <section className="contactForm">
         <br></br><h1>Contact Me</h1>
 
         <Form>
-          <Form.Label>Please note: this form is not currently functional. The submit button will reroute you to the "About Me" page.</Form.Label>
+          <Form.Label>*Please note: this form is not currently functional. The submit button will reroute you to the "About Me" page.</Form.Label>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             {/* <Form.Label>Name</Form.Label> */}
             <Form.Control type="text" placeholder="Name" />
