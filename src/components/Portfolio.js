@@ -94,7 +94,7 @@ function Portfolio() {
                     <Card.Text>
                       A bilingual website I built for a Canadian client a few years ago using a template from HTML5UP.
                     </Card.Text>
-                    <Button href="https://www.contracteurshh.ca/indexEng.html" target="_blank" variant="dark">Deployed App</Button>
+                    <Button href="https://www.contracteurshh.ca/indexEng.html" target="_blank" variant="dark">Live Site</Button>
                   </Card.Body>
                 </Card>
             </Col>

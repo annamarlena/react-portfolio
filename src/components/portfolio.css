@@ -1,10 +1,10 @@
 .background {
-  text-align: center;
+  padding-top: 40px;
   padding-bottom: 200px;
 }
 
 .card {
-  outline: 2px solid #f4b955;
+  outline: 2px solid black;
   margin:auto;
   margin-bottom: 20px;
 }
@@ -16,7 +16,7 @@
 .discomania,
 .eat {
   outline: 5px solid white;
-  border-bottom: 2px solid #f4b955;
+  border-bottom: 2px solid black;
   height: 300px;
   padding: 10px;
 }
