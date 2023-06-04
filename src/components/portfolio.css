@@ -1,8 +1,26 @@
-.addPadding {
+.background {
   text-align: center;
   padding-bottom: 200px;
 }
 
 .card {
   outline: 2px solid #f4b955;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+.notetaker, 
+.petopia, 
+.kitchen, 
+.skyInvaders, 
+.discomania,
+.eat {
+  outline: 5px solid white;
+  border-bottom: 2px solid #f4b955;
+  height: 300px;
+}
+
+.btn {
+  margin-left: 1px;
+  margin-right: 1px;
 }

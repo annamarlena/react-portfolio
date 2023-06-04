@@ -12,12 +12,12 @@
     text-align: center;
   }
 
-  nav {
+  .nav-link {
     margin: auto;
   }
 
-  .nav-link.active {
-    color: #f4b955;
+  .active-link {
+    color: #f4b955 !important;
   }
 
   

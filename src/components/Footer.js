@@ -12,7 +12,7 @@ function Footer() {
 
     <footer className="footer">
       <div>
-        <p>A portfolio website built using React and React Bootstrap</p>
+        <br></br><p>A portfolio website built using React and React Bootstrap</p>
       </div>
 
       <a href="https://www.linkedin.com/in/a-marlena-keller-179b609b/" target="_blank">

@@ -20,8 +20,9 @@ function About() {
           <Col lg={true}>
 
             <section className="section1">
-              <h3>Some Info</h3>
-              <p>Hi, I'm Marlena! I'm a recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an associate's degree in Computer Programming from Saint Paul College.</p>
+              <h4>Hi, I'm Marlena!</h4>
+              <p>I'm a recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an associate's degree in Computer Programming from Saint Paul College in Saint Paul, MN.</p>
+              <p>I started coding for fun in 2012. I earned an associate's in programming in 2017 but never worked in the field. I'm looking to make a career change and open to relocating. React is my jam!</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
             </section>
           </Col>

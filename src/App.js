@@ -34,7 +34,10 @@ function App() {
 
       <main className="main">
 
-        <img class="artdeco1" src={artdeco1} alt="background image" />
+        {/* Image downloaded from Freepik.com
+        www.freepik.com/free-vector/gradient-art-deco-pattern-design_14571380.htm#query=art%20deco%20background&position=14&from_view=keyword&track=ais
+         */}
+        <img class="artdeco1" src={artdeco1} alt="Art-deco gradient pattern background." />
 
         {currentPage === "/about" && (
           <About/>

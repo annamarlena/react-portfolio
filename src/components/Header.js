@@ -14,11 +14,11 @@ function Header() {
 
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Nav className="justify-content-end">
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="/resume">Resume</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav className="nav-link" activeClassName="active-link">
+              <NavLink href="/about">About</NavLink>
+              <NavLink href="/portfolio">Portfolio</NavLink>
+              <NavLink href="/resume">Resume</NavLink>
+              <NavLink href="/contact">Contact</NavLink>
             </Nav>
           </Container>
         </Navbar>
