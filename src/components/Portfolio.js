@@ -30,7 +30,7 @@ function Portfolio() {
                     <Card.Text>
                       Uses a working Express API to use Sequelize & interact with a MySQL database.
                     </Card.Text>
-                    <Button href="https://drive.google.com/file/d/1dOGxgQvmgPRIj91eN3BvF9RdHSbKuVrt/view" target="_blank" variant="dark">Demo Video</Button>
+                    <Button href="https://drive.google.com/file/d/1dOGxgQvmgPRIj91eN3BvF9RdHSbKuVrt/view" target="_blank" variant="dark">Demo Video</Button> 
                     <Button href="https://github.com/annamarlena/e-commerce-back-end" target="_blank" variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>
