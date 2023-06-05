@@ -8,6 +8,7 @@ The purpose of this project was to create a responsive, professional portfolio w
 * Please note that this is deployed to Heroku and not GitHub pages because I have an existing GitHub pages account I didn't want to modify.
 
 ## Deployed App
+[link](link)
 
 ## Screenshot
 

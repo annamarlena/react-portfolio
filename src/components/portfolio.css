@@ -8,15 +8,15 @@
   margin:auto;
   margin-bottom: 20px;
 }
-
-.notetaker, 
-.petopia, 
-.kitchen, 
-.skyInvaders, 
+ 
 .discomania,
-.eat {
+.eat,
+.eCommerce,
+.kitchen, 
+.notetaker, 
+.petopia,
+.skyInvaders {
   outline: 5px solid white;
-  border-bottom: 2px solid black;
   height: 300px;
   padding: 10px;
 }

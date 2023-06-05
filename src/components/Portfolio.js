@@ -11,6 +11,7 @@ import kitchen from './kitchen.png'
 import skyInvaders from './skyInvaders.jpg'
 import discomania from './discomania.jpg'
 import eat from './eat.png'
+import eCommerce from './eCommerce.png'
 
 function Portfolio() {
 
@@ -18,7 +19,50 @@ function Portfolio() {
     <div>
       <br></br><h1>My Portfolio</h1><br></br>
       <section>
-      <Container className="background">
+       <Container className="background">
+          <Row>
+            <Col lg={true}>
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" className="eCommerce" src={eCommerce} />
+                  <Card.Body>
+                    <Card.Title>E-Commerce Backend</Card.Title>
+                    <Card.Text>
+                      Uses a working Express API to use Sequelize & interact with a MySQL database.
+                    </Card.Text>
+                    <Button href="https://drive.google.com/file/d/1dOGxgQvmgPRIj91eN3BvF9RdHSbKuVrt/view" target="_blank" variant="dark">Demo Video</Button>
+                    <Button href="https://github.com/annamarlena/e-commerce-back-end" target="_blank" variant="dark">GitHub Repo</Button>
+                  </Card.Body>
+                </Card>
+            </Col>
+            <Col lg={true}>
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={placeholder} />
+                  <Card.Body>
+                    <Card.Title>Social Network API</Card.Title>
+                    <Card.Text>
+                      Backend of a social network using MongoDB. Users share thoughts, comment, & react.
+                    </Card.Text>
+                    <Button href="" target="_blank" variant="dark">Demo Video</Button>
+                    <Button href="https://github.com/annamarlena/social-network-api" target="_blank" variant="dark">GitHub Repo</Button>
+                  </Card.Body>
+                </Card>
+            </Col>
+            <Col lg={true}>
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={placeholder} />
+                  <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                      Some quick example text to build on the card title and make up the
+                      bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="dark">Deployed App</Button>
+                    <Button variant="dark">GitHub Repo</Button>
+                  </Card.Body>
+                </Card>
+            </Col>
+          </Row>
+
           <Row>
           <Col lg={true}>
               <Card style={{ width: '18rem' }}>
@@ -95,51 +139,6 @@ function Portfolio() {
                       A bilingual website I built for a Canadian client a few years ago using a template from HTML5UP.
                     </Card.Text>
                     <Button href="https://www.contracteurshh.ca/indexEng.html" target="_blank" variant="dark">Live Site</Button>
-                  </Card.Body>
-                </Card>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col lg={true}>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={placeholder} />
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the
-                      bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="dark">Deployed App</Button>
-                    <Button variant="dark">GitHub Repo</Button>
-                  </Card.Body>
-                </Card>
-            </Col>
-            <Col lg={true}>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={placeholder} />
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the
-                      bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="dark">Deployed App</Button>
-                    <Button variant="dark">GitHub Repo</Button>
-                  </Card.Body>
-                </Card>
-            </Col>
-            <Col lg={true}>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={placeholder} />
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and make up the
-                      bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="dark">Deployed App</Button>
-                    <Button variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>
             </Col>
