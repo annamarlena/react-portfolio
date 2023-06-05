@@ -16,10 +16,10 @@ function Header({currentPage}) {
         <Navbar bg="dark" variant="dark">
           <Container>
             <Nav className="nav-link">
-              <NavLink className={currentPage === "/about" ? "active-link" : ""} href="/about">About</NavLink>
-              <NavLink className={currentPage === "/portfolio" ? "active-link" : ""} href="/portfolio">Portfolio</NavLink>
-              <NavLink className={currentPage === "/resume" ? "active-link" : ""} href="/resume">Resume</NavLink>
-              <NavLink className={currentPage === "/contact" ? "active-link" : ""} href="/contact">Contact</NavLink>
+              <NavLink className={currentPage === "/react-portfolio/about" ? "active-link" : ""} href="/about">About</NavLink>
+              <NavLink className={currentPage === "/react-portfolio/portfolio" ? "active-link" : ""} href="/portfolio">Portfolio</NavLink>
+              <NavLink className={currentPage === "/react-portfolio/resume" ? "active-link" : ""} href="/resume">Resume</NavLink>
+              <NavLink className={currentPage === "/react-portfolio/contact" ? "active-link" : ""} href="/contact">Contact</NavLink>
             </Nav>
           </Container>
         </Navbar>

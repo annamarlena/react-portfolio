@@ -12,14 +12,14 @@ import { useState, useEffect } from "react"
 function App() {
   const [currentPage, setCurrentPage] = useState("")
 
-  const allPages = [ "/about", "/portfolio", "/contact", "/resume" ]
+  const allPages = [ "/react-portfolio/about", "/react-portfolio/portfolio", "/react-portfolio/contact", "/react-portfolio/resume" ]
 
   useEffect(() => {
   
     const page = window.location.href.split(window.location.host)[1].toLowerCase()
 
     if( !allPages.includes(page) ){
-      setCurrentPage("/about") 
+      setCurrentPage("/react-portfolio/about") 
     } else {
       setCurrentPage(page)
     }
@@ -38,16 +38,16 @@ function App() {
          */}
         <img class="artdeco1" src={artdeco1} alt="Art-deco gradient pattern background." />
 
-        {currentPage === "/about" && (
+        {currentPage === "/react-portfolio/about" && (
           <About/>
         )}
-        {currentPage === "/portfolio" && (
+        {currentPage === "/react-portfolio/portfolio" && (
           <Portfolio/>
         )}
-        {currentPage === "/contact" && (
+        {currentPage === "/react-portfolio/contact" && (
           <Contact/>
         )}
-        {currentPage === "/resume" && (
+        {currentPage === "/react-portfolio/resume" && (
           <Resume/>
         )}
 
