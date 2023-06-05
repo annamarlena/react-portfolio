@@ -12,6 +12,7 @@ import skyInvaders from './skyInvaders.jpg'
 import discomania from './discomania.jpg'
 import eat from './eat.png'
 import eCommerce from './eCommerce.png'
+import tracker from './tracker.png'
 
 function Portfolio() {
 
@@ -49,15 +50,14 @@ function Portfolio() {
             </Col>
             <Col lg={true}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={placeholder} />
+                <Card.Img variant="top" className="tracker" src={tracker} />
                   <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Employee Tracker</Card.Title>
                     <Card.Text>
-                      Some quick example text to build on the card title and make up the
-                      bulk of the card's content.
+                      Command-line app using Node.js, Inquirer, and MySQL.
                     </Card.Text>
-                    <Button variant="dark">Deployed App</Button>
-                    <Button variant="dark">GitHub Repo</Button>
+                    <Button href="https://drive.google.com/file/d/1--e8EtRQme6PbJlvvslS4Tzusc5utrij/view" target="_blank" variant="dark">Demo Video</Button>
+                    <Button href="https://github.com/annamarlena/employee-tracker" target="_blank" variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>
             </Col>
@@ -136,7 +136,7 @@ function Portfolio() {
                   <Card.Body>
                     <Card.Title>H & H Contractors</Card.Title>
                     <Card.Text>
-                      A bilingual website I built for a Canadian client a few years ago using a template from HTML5UP.
+                      A bilingual website I built for a Canadian client using a template from HTML5UP.
                     </Card.Text>
                     <Button href="https://www.contracteurshh.ca/indexEng.html" target="_blank" variant="dark">Live Site</Button>
                   </Card.Body>
