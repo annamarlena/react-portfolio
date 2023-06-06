@@ -15,9 +15,7 @@ function App() {
   const allPages = [ "/react-portfolio/about", "/react-portfolio/portfolio", "/react-portfolio/contact", "/react-portfolio/resume" ]
 
   useEffect(() => {
-  
     const page = window.location.href.split(window.location.host)[1].toLowerCase()
-
     if( !allPages.includes(page) ){
       setCurrentPage("/react-portfolio/about") 
     } else {

@@ -13,6 +13,7 @@ import discomania from './discomania.jpg'
 import eat from './eat.png'
 import eCommerce from './eCommerce.png'
 import tracker from './tracker.png'
+import insomnia from './insomnia.png'
 
 function Portfolio() {
 
@@ -37,13 +38,13 @@ function Portfolio() {
             </Col>
             <Col lg={true}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={placeholder} />
+                <Card.Img variant="top" className="insomnia" src={insomnia} />
                   <Card.Body>
                     <Card.Title>Social Network API</Card.Title>
                     <Card.Text>
                       Backend of a social network using MongoDB. Users share thoughts, comment, & react.
                     </Card.Text>
-                    <Button href="" target="_blank" variant="dark">Demo Video</Button>
+                    {/* <Button href="" target="_blank" variant="dark">Demo Video</Button>  to be added later */}
                     <Button href="https://github.com/annamarlena/social-network-api" target="_blank" variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>

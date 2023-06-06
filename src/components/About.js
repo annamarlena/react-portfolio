@@ -21,7 +21,7 @@ function About() {
 
             <section className="section1">
               <h4>Hi, I'm Marlena!</h4><br></br>
-              {/* <p>I'm a recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an associate's degree in Computer Programming from Saint Paul College in Saint Paul, MN.</p> */}
+              <p>I'm a recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an associate's degree in Computer Programming from Saint Paul College in Saint Paul, MN.</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
             </section>
           </Col>
