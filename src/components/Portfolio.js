@@ -55,7 +55,7 @@ function Portfolio() {
                   <Card.Body>
                     <Card.Title>Employee Tracker</Card.Title>
                     <Card.Text>
-                      Command-line app using Node.js, Inquirer, and MySQL.
+                      Command-line app using Node.js, Inquirer, and MySQL to track/add/change a database.
                     </Card.Text>
                     <Button href="https://drive.google.com/file/d/1--e8EtRQme6PbJlvvslS4Tzusc5utrij/view" target="_blank" variant="dark">Demo Video</Button>
                     <Button href="https://github.com/annamarlena/employee-tracker" target="_blank" variant="dark">GitHub Repo</Button>

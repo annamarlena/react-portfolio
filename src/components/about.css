@@ -1,8 +1,8 @@
 .profilePic {
 border: 20px solid white;
 margin: 50px;
-height: 400px;
 outline: 2px solid #f4b955;
+width: 400px;
 }
 
 .section1, .section2 {
