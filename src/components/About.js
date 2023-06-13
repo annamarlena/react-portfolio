@@ -30,7 +30,8 @@ function About() {
         </Row>
           <section className="section2">
             <h3>Education and Skills</h3>
-            <p>I'm a recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an Associate's degree in Computer Programming from Saint Paul College in Saint Paul, MN.</p>
+            <p>University of Minnesota Full Stack Coding Bootcamp | June 12, 2023
+            <br></br>Associate's in Computer Programming, Saint Paul College, Saint Paul, MN | May 2017</p>
             <p>Skills and technologies include: Front and back end development, responsive design, RESTful APIs, Document Object Model, JavaScript, HTML, CSS, jQuery, MERN Stack (MongoDB, Express.js, React.js, Node.js), JavaScript Object Notation (JSON), MySQL, Mongoose, Bootstrap, React Bootstrap, Bulma, Progressive Web Apps (PWA), Local Storage, Session Storage, User Authentication, Continuous Integration (CI), Model-View-Controller (MVC), Application Programming Interfaces (API), Asynchronous JavaScript and XML (AJAX), HTTP Request Methods, Agile, Heroku, Git, GitHub, Scripts, and last but not least: GIMP for photo/image editing.</p>
           </section>
         <Row>
