@@ -12,6 +12,12 @@ form {
   margin: 20px;
 }
 
+.formContainer {
+  outline: 2px solid #f4b955;
+  padding: 30px;
+  margin: auto;
+}
+
 .stackOverflow, .gitHub, .linkedIn {
   height: 200px;
   margin: 20px;

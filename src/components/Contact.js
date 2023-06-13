@@ -1,6 +1,7 @@
 import './contact.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import emailjs from '@emailjs/browser';
 import stackoverflow from './stackoverflow.png'
 import github from './github.png'
 import linkedin from './linkedin.png'
@@ -8,27 +9,29 @@ import linkedin from './linkedin.png'
 
 function Contact() {
 
+const sendEmail = (e) => {
+  e.preventDefault();
+  emailjs.sendForm("service_sm3otsi", "template_8c4r7zd", e.target, "YgJoL2j_wsGmHQFHr")
+}
+
   return (
     <div>
       <section className="contactForm">
         <br></br><h1>Contact Me</h1>
+        <p>annamarlena310@gmail.com</p><br></br>
 
-        <Form>
-          <Form.Label>*Please note: this form is not currently functional. The submit button will reroute you to the "About Me" page.</Form.Label>
+        <Form className="formContainer" onSubmit={sendEmail}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            {/* <Form.Label>Name</Form.Label> */}
-            <Form.Control type="text" placeholder="Name" />
+            <Form.Control type="text" name="from_name" className="from_name" placeholder="Name" />
           </Form.Group>
           <Form.Group className='mb-3' controlId="formBasicEmail">
-            {/* <Form.Label>Email Address</Form.Label> */}
-            <Form.Control type="email" placeholder="Email Address" />
+            <Form.Control type="text" name="email_from" className="email_from" placeholder="Email Address" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          {/* <Form.Label>Leave a Note</Form.Label> */}
-          <Form.Control as="textarea" placeholder="Leave a Note" rows={3} />
+          <Form.Control as="textarea" name="message" className="message" placeholder="Leave a Note" rows={3} />
         </Form.Group>
-          <Button variant="dark" type="submit">Submit</Button>
-        </Form>
+          <Button variant="dark" type="submit">Send Email</Button>
+        </Form><br></br>
       </section>
 
       <section className="profiles">

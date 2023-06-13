@@ -13,7 +13,7 @@ function About() {
       <br></br><h1>About Me</h1>
       <Container>
         <Row>
-          <Col sm={12}>
+          <Col sm={12} md={6}>
              <Image className="profilePic" src={profilePic} alt="Professional photo of me" />
           </Col>
           <Col>
