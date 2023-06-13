@@ -13,25 +13,25 @@ function About() {
       <br></br><h1>About Me</h1>
       <Container>
         <Row>
-          <Col lg={true}>
-            {/* <section> */}
+          <Col sm={12}>
              <Image className="profilePic" src={profilePic} alt="Professional photo of me" />
-            {/* </section> */}
           </Col>
-          <Col lg={true}>
+          <Col>
 
             <section className="section1">
               <h4>Hi, I'm Marlena!</h4><br></br>
-              <p>I'm a junior React developer and recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an associate's degree in Computer Programming from Saint Paul College in Saint Paul, MN.</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
+              <p>I'm a junior React developer with a strong technical background and leadership skills.</p>
+              <p>I have a knack for analyzing and troubleshooting technical issues. I've honed my administrative and organizational skills, allowing me to manage multiple projects simultaneously with tight deadlines.</p>
+              <p>Besides my technical expertise, I bring strong interpersonal and communication skills to the table.</p>
+              <p>I value collaboration and enjoy working with cross-functional teams.</p>
+ 
             </section>
           </Col>
         </Row>
           <section className="section2">
-            <h3>Some More Info</h3>
-            <p>Skills include: JavaScript, HTML, CSS, jQuery, React, Node, MySQL, MongoDB, Mongoose, Bootstrap, Bulma, Express, PWA, Responsive Design, Local Storage, Session Storage, User Authentication, MERN Stack, CI, MVC, API, Rest, JSON, AJAX, HTTP Request Methods, Agile, Heroku, Git, GitHub, Scripts, and GIMP for photo editing. I also have some past experience with Python and Java, but it's been years.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias esse architecto pariatur velit consequatur eaque est quos, saepe maxime optio sapiente ea. At unde quod iusto dignissimos sunt perferendis id, provident voluptatem mollitia deserunt ipsam voluptates nisi dolorum cupiditate maxime.</p>
+            <h3>Education and Skills</h3>
+            <p>I'm a recent graduate of the University of Minnesota Full Stack Coding Bootcamp. I also have an Associate's degree in Computer Programming from Saint Paul College in Saint Paul, MN.</p>
+            <p>Skills and technologies include: Front and back end development, responsive design, RESTful APIs, Document Object Model, JavaScript, HTML, CSS, jQuery, MERN Stack (MongoDB, Express.js, React.js, Node.js), JavaScript Object Notation (JSON), MySQL, Mongoose, Bootstrap, React Bootstrap, Bulma, Progressive Web Apps (PWA), Local Storage, Session Storage, User Authentication, Continuous Integration (CI), Model-View-Controller (MVC), Application Programming Interfaces (API), Asynchronous JavaScript and XML (AJAX), HTTP Request Methods, Agile, Heroku, Git, GitHub, Scripts, and last but not least: GIMP for photo/image editing.</p>
           </section>
         <Row>
           

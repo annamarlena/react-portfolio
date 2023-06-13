@@ -21,3 +21,11 @@ width: 400px;
   margin-left: 50px;
   margin-right: 50px;
 }
+
+/* media query for small screens */
+@media screen and (max-width: 575px) {
+  .profilePic {
+    width: 70%;
+    position: relative;
+  }
+}

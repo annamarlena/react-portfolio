@@ -13,7 +13,7 @@ function Header({currentPage}) {
       <div>
         <img className="signature" src={signature} />
 
-        <Navbar bg="dark" variant="dark" expand="md">
+        <Navbar bg="dark" variant="dark" expand="sm">
           <Container>
             <Nav className="nav-link">
               <NavLink className={currentPage === "/react-portfolio/about" ? "active-link" : ""} href="/react-portfolio/about">About</NavLink>
