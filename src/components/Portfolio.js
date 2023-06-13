@@ -23,7 +23,7 @@ function Portfolio() {
       <br></br><h1>My Portfolio</h1><br></br>
       <section>
        <Container className="background">
-        <h3>Collaborative Projects</h3><br></br>
+        <h2>Collaborative Projects</h2><br></br>
         <Row>
           <Col lg={true}>
               <Card style={{ width: '18rem' }}>
@@ -65,7 +65,7 @@ function Portfolio() {
                 </Card>
             </Col>
           </Row>
-          <br></br><h3>Back End Projects</h3><br></br>
+          <br></br><h2>Back End Projects</h2><br></br>
           <Row>
             <Col lg={true}>
               <Card style={{ width: '18rem' }}>
@@ -120,7 +120,7 @@ function Portfolio() {
                 </Card>
             </Col>
           </Row>
-          <br></br><h3>Front End Projects</h3><br></br>
+          <br></br><h2>Front End Projects</h2><br></br>
           <Row>
             <Col lg={true}>
               <Card style={{ width: '18rem' }}>
