@@ -6,12 +6,12 @@ import stackoverflow from './stackoverflow.png'
 import github from './github.png'
 import linkedin from './linkedin.png'
 
-
 function Contact() {
 
 const sendEmail = (e) => {
   e.preventDefault();
-  emailjs.sendForm("service_sm3otsi", "template_8c4r7zd", e.target, "YgJoL2j_wsGmHQFHr")
+  emailjs.sendForm("service_sm3otsi", "template_8c4r7zd", e.target, "YgJoL2j_wsGmHQFHr");
+  alert("Your message has been sent!");
 }
 
   return (
