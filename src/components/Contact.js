@@ -5,14 +5,25 @@ import emailjs from '@emailjs/browser';
 import stackoverflow from './stackoverflow.png'
 import github from './github.png'
 import linkedin from './linkedin.png'
+import React, { useState } from 'react'
 
 function Contact() {
 
-const sendEmail = (e) => {
-  e.preventDefault();
-  emailjs.sendForm("service_sm3otsi", "template_8c4r7zd", e.target, "YgJoL2j_wsGmHQFHr");
-  alert("Your message has been sent!");
-}
+  const initialFormState = { 
+    from_name: "",
+    email_from: "",
+    message: ""
+  };
+
+  const [ contactData, setContactData ] = useState({ ...initialFormState });
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_sm3otsi", "template_8c4r7zd", e.target, "YgJoL2j_wsGmHQFHr");
+    alert("Your message has been sent!");
+    setContactData({ ...initialFormState });
+  };
 
   return (
     <div>
@@ -20,7 +31,7 @@ const sendEmail = (e) => {
         <br></br><h1>Contact Me</h1>
         <p>annamarlena310@gmail.com</p><br></br>
 
-        <Form className="formContainer" onSubmit={sendEmail}>
+        <Form className="formContainer" onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Control type="text" name="from_name" className="from_name" placeholder="Name" />
           </Form.Group>
@@ -28,7 +39,7 @@ const sendEmail = (e) => {
             <Form.Control type="text" name="email_from" className="email_from" placeholder="Email Address" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Control as="textarea" name="message" className="message" placeholder="Leave a Note" rows={3} />
+          <Form.Control type="textarea" name="message" className="message" placeholder="Leave a Note" rows={3} />
         </Form.Group>
           <Button variant="dark" type="submit">Send Email</Button>
         </Form><br></br>
