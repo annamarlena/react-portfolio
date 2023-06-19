@@ -20,7 +20,7 @@ function About() {
 
             <section className="section1">
               <h4>Hi, I'm Marlena!</h4>
-              <p>I'm a junior React developer with a strong technical background and leadership skills.</p>
+              <p>I'm a junior React developer with a strong technical background, an eye for design, and solid leadership skills.</p>
               <p>I have a knack for analyzing and troubleshooting technical issues. I've honed my administrative and organizational skills, allowing me to manage multiple projects simultaneously with tight deadlines.</p>
               <p>Besides my technical expertise, I bring strong interpersonal and communication skills to the table.</p>
               <p>I value collaboration and enjoy working with cross-functional teams.</p>

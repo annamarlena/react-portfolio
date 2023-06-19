@@ -26,6 +26,10 @@ function Footer() {
       <a href="https://stackoverflow.com/users/4595337/marlena?tab=profile" target="_blank">
         <img className="stackoverflow" src={stackoverflow} alt="Stack Overflow icon linking to my Stack Overflow account." /> 
       </a>
+      <div>
+        <p>© annamarlena designs 2023</p>
+      </div>
+ 
     </footer>
   )
 }
