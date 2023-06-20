@@ -7,7 +7,6 @@ import github from './github.png'
 import linkedin from './linkedin.png'
 import React, { useRef } from 'react'
 
-
 const Contact = () => {
   const form = useRef();
 
@@ -32,13 +31,13 @@ const Contact = () => {
 
         <Form className="formContainer" ref={form} onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Control type="text" name="from_name" className="from_name" placeholder="Name" />
+            <Form.Control type="text" name="from_name" className="from_name" placeholder="Name" maxLength={35} />
           </Form.Group>
           <Form.Group className='mb-3' controlId="formBasicEmail">
-            <Form.Control type="text" name="email_from" className="email_from" placeholder="Email Address" />
+            <Form.Control type="email" name="email_from" className="email_from" placeholder="Email Address" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Control type="textarea" name="message" className="message" placeholder="Leave a Note" rows={3} />
+          <Form.Control type="textarea" name="message" className="message" placeholder="Leave a Note" rows={3} maxLength={300} />
         </Form.Group>
           <Button variant="dark" type="submit">Send Email</Button>
         </Form><br></br>
