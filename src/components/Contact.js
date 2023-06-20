@@ -5,25 +5,24 @@ import emailjs from '@emailjs/browser';
 import stackoverflow from './stackoverflow.png'
 import github from './github.png'
 import linkedin from './linkedin.png'
-import React, { useState } from 'react'
+import React, { useRef } from 'react'
 
-function Contact() {
 
-  const initialFormState = { 
-    from_name: "",
-    email_from: "",
-    message: ""
-  };
+const Contact = () => {
+  const form = useRef();
 
-  const [ contactData, setContactData ] = useState({ ...initialFormState });
-  
-  const handleSubmit = (e) => {
+ const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_sm3otsi", "template_8c4r7zd", e.target, "YgJoL2j_wsGmHQFHr");
-    alert("Your message has been sent!");
-    setContactData({ ...initialFormState });
-  };
+    emailjs.sendForm("service_sm3otsi", "template_8c4r7zd", form.current, "YgJoL2j_wsGmHQFHr")
+      .then((result) => {
+        alert("Your message has been sent!");
+        console.log(result.text);
+        form.current.reset();
+      }, (error) => {
+        console.log(error.text);
+      })
+  }
 
   return (
     <div>
@@ -31,7 +30,7 @@ function Contact() {
         <br></br><h1>Contact Me</h1>
         <p>annamarlena310@gmail.com</p><br></br>
 
-        <Form className="formContainer" onSubmit={handleSubmit}>
+        <Form className="formContainer" ref={form} onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Control type="text" name="from_name" className="from_name" placeholder="Name" />
           </Form.Group>
@@ -43,7 +42,7 @@ function Contact() {
         </Form.Group>
           <Button variant="dark" type="submit">Send Email</Button>
         </Form><br></br>
-      </section>
+      </section> 
 
       <section className="profiles">
         <h1>Professional Profiles</h1>
