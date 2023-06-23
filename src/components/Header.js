@@ -11,7 +11,7 @@ function Header({currentPage}) {
   return(
     <header className="header">
       <div>
-        <img className="signature" src={signature} />
+        <img className="signature" src={signature} alt="Marlena's name in a fancier font"/>
 
         <Navbar bg="dark" variant="dark" expand="sm">
           <Container>
