@@ -23,7 +23,7 @@ function Portfolio() {
       <br></br><h1>My Portfolio</h1><br></br>
       <section>
        <Container className="background">
-        <h2>Collaborative Projects</h2><br></br>
+        <h2>Projects I've Collaborated On</h2><br></br>
         <Row>
           <Col lg={true}>
               <Card style={{ width: '18rem' }}>
@@ -31,9 +31,9 @@ function Portfolio() {
                   <Card.Body>
                    <Card.Title>Social Garden</Card.Title>
                     <Card.Text>
-                      Collaborative project. Full stack MERN application using React and MongoDB.
+                      Collaborative project. Full stack MERN application using React and MongoDB. Design is mine.
                     </Card.Text>
-                    <Button href="https://social-garden.herokuapp.com/login" target="_blank" variant="dark">Deployed App</Button>
+                    <Button href="https://social-garden.herokuapp.com/login" target="_blank" variant="dark">Live Site</Button>
                     <Button href="https://github.com/buster35/social-garden" target="_blank" variant="dark">GitHub Repo</Button>
                 </Card.Body>
               </Card>
@@ -44,9 +44,9 @@ function Portfolio() {
                   <Card.Body>
                     <Card.Title>What to Eat</Card.Title>
                     <Card.Text>
-                      Collaborative project using a recipe API, local storage, and Bulma for responsive styling. 
+                      Collaborative project. Uses a recipe API, plus Bulma for responsive styling. Design is mine.
                     </Card.Text>
-                    <Button href="https://hayessea000.github.io/what-to-eat/" target="_blank" variant="dark">Deployed App</Button>
+                    <Button href="https://hayessea000.github.io/what-to-eat/" target="_blank" variant="dark">Live Site</Button>
                     <Button href="https://github.com/hayessea000/what-to-eat" target="_blank" variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>
@@ -57,15 +57,15 @@ function Portfolio() {
                   <Card.Body>
                     <Card.Title>Petopia</Card.Title>
                     <Card.Text>
-                      Collaborative project using Express, MySQL, and Sequelize, with an MVC file structure.
+                      Collaboration. Uses Express, MySQL, & Sequelize, with an MVC file structure. Work in progress.
                     </Card.Text>
-                    <Button href="https://petopia.herokuapp.com/" target="_blank" variant="dark">Deployed App</Button>
+                    <Button href="https://petopia.herokuapp.com/" target="_blank" variant="dark">Live site</Button>
                     <Button href="https://github.com/annamarlena/petopia" target="_blank" variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>
             </Col>
           </Row>
-          <br></br><h2>Back End Projects</h2><br></br>
+          <br></br><h2>Back End/Database Projects</h2><br></br>
           <Row>
             <Col lg={true}>
               <Card style={{ width: '18rem' }}>
@@ -88,7 +88,7 @@ function Portfolio() {
                     <Card.Text>
                       This application uses Express on the back end and saves and retrieves notes from a JSON file.
                     </Card.Text>
-                    <Button href="https://marlenas-note-taker.herokuapp.com/" target="_blank" variant="dark">Deployed App</Button>
+                    <Button href="https://marlenas-note-taker.herokuapp.com/" target="_blank" variant="dark">Live Site</Button>
                     <Button href="https://github.com/annamarlena/note-taker" target="_blank" variant="dark">GitHub Repo</Button>
                   </Card.Body>
                 </Card>
@@ -120,7 +120,7 @@ function Portfolio() {
                 </Card>
             </Col>
           </Row>
-          <br></br><h2>Front End Projects</h2><br></br>
+          <br></br><h2>Front End Projects/My Design</h2><br></br>
           <Row>
             <Col lg={true}>
               <Card style={{ width: '18rem' }}>
