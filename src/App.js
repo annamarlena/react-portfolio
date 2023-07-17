@@ -21,7 +21,7 @@ function App() {
     } else {
       setCurrentPage(page)
     }
-
+ 
   }, [window.location.href])
 
   return (
