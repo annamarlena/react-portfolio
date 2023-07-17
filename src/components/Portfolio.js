@@ -130,7 +130,7 @@ function Portfolio() {
                       <Card.Text>
                         A simple JavaScript/Tumult Hype game. This is a bird-themed version of Space Invaders.
                      </Card.Text>
-                    <Button href="https://annamarlena.github.io/SpaceInvaders/" target="_blank" variant="dark">GitHub Pages</Button>
+                    <Button href="https://annamarlena.github.io/SpaceInvaders/" target="_blank" variant="dark">Play Game!</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -142,7 +142,7 @@ function Portfolio() {
                     <Card.Text>
                     JavaScript/Tumult Hype disco-themed slot machine game. Loads slowly but worth the wait!
                     </Card.Text>
-                    <Button href="https://annamarlena.github.io/DiscoMania/" target="_blank" variant="dark">GitHub Pages</Button>
+                    <Button href="https://annamarlena.github.io/DiscoMania/" target="_blank" variant="dark">Play Game!</Button>
                   </Card.Body>
                 </Card>
             </Col>
@@ -154,7 +154,7 @@ function Portfolio() {
                     <Card.Text>
                       A bilingual website I built for a Canadian client using a template from HTML5UP.
                     </Card.Text>
-                    <Button href="https://www.contracteurshh.ca/indexEng.html" target="_blank" variant="dark">Live Site</Button>
+                    <Button href="https://www.contracteurshh.ca/indexEng.html" target="_blank" variant="dark">Visit Website</Button>
                   </Card.Body>
                 </Card>
             </Col>

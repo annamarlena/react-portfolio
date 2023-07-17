@@ -1,12 +1,13 @@
-.profilePic {
+.profilePic2, .fullProfilePic {
 border: 20px solid white;
 margin: 50px;
 outline: 2px solid #f4b955;
-width: 400px;
+height: 80%;
+width: 80%;
 }
 
 .section1 {
-  min-height: 400px;
+  height: 80%;
 }
 
 .section1, .section2, .section3 {
@@ -24,8 +25,24 @@ width: 400px;
 
 /* media query for small screens */
 @media screen and (max-width: 575px) {
-  .profilePic {
+  .profilePic2, .fullProfilePic {
     width: 70%;
+    position: relative;
+  }
+}
+
+/* media query for iPad screens */
+@media screen and (max-width: 820px) {
+  .profilePic, .fullProfilePic2 {
+    width: 70%;
+    position: relative;
+  }
+}
+
+/* media query for NestHub screens */
+@media screen and (max-width: 1280px) {
+  .profilePic2, .fullProfilePic {
+    width:  70%;
     position: relative;
   }
 }
