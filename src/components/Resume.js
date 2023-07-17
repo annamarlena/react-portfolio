@@ -3,6 +3,7 @@ import './resume.css'
 import { Container, Row } from "react-bootstrap"
 import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
 
+  // imports in a resume pdf
   const Resume = () => {
     const docs = [{ uri: require("./resume.pdf") }];
 

@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-// import placeholder from './placeholder.png'
 import notetaker from './notetaker.jpg'
 import petopia from './petopia.png'
 import kitchen from './kitchen.png'
