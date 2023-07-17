@@ -4,7 +4,6 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import profilePic from './profilePic.jpg'
-import profilePic2 from './profilePic2.jpg'
 import fullProfilePic from './fullProfilePic.jpg'
 // import fullProfilePic2 from './fullProfilePic2.jpg'
 
@@ -25,6 +24,7 @@ function About() {
               <p>My customer service background equips me with exceptional interpersonal skills, allowing me to understand user needs and create intuitive web experiences.</p>
               <p>My creative mindset gives me a fresh approach to problem-solving, enabling me to think outside the box and innovate in the ever-evolving field of web development.</p>
                 {/* Moreover, my decision to embark on a career change demonstrates courage, adaptability, and a hunger for personal growth.  */}
+              <p>I embrace new and emerging technologies, and am currently learning AI Prompt Engineering through online coursework.</p>
               <p>My diverse background brings a rich tapestry of knowledge, ideas, and perspectives to my work, allowing me to create projects that resonate with a broader audience. </p> 
             </section>
           </Col>
@@ -39,20 +39,15 @@ function About() {
                 <p>I also build custom websites from scratch and have a talent for branding! If you're a small business owner or self-employed and looking to expand your online presence, please reach out to me via the contact section of this site. I'll be happy to connect with you to brainstorm ways to help your business stand out and grow!</p>
             </section>
           </Col>
-          {/* <Col sm={12} md={6}>
-             <Image className="fullProfilePic2" src={fullProfilePic2} alt="Professional photo of me" />
-          </Col> */}
         </Row>
           <section className="section3">
             <h3>Education and Skills</h3>
             <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b65db092-87a5-4463-8d66-f6c32b73ea3a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
             <p>University of Minnesota Full Stack Coding Bootcamp | June 12, 2023
             <br></br>Associate's in Computer Programming, Saint Paul College, Saint Paul, MN | May 2017</p>
-            <p>Skills and technologies include: Front and back end development, responsive design, RESTful APIs, Document Object Model, JavaScript, HTML, CSS, jQuery, MERN Stack (MongoDB, Express.js, React.js, Node.js), JavaScript Object Notation (JSON), MySQL, Mongoose, Bootstrap, React Bootstrap, Bulma, Progressive Web Apps (PWA), Local Storage, Session Storage, User Authentication, Continuous Integration (CI), Model-View-Controller (MVC), Application Programming Interfaces (API), Asynchronous JavaScript and XML (AJAX), HTTP Request Methods, Agile, Heroku, Git, GitHub, Scripts, Adobe Suite, and last but not least: GIMP for some open source advanced image editing.</p>
+            <p>Skills and technologies include: Front and Back End Development, Responsive Design, Debugging, Prompt Engineering, RESTful APIs, Document Object Model, JavaScript, HTML, CSS, jQuery, MERN Stack (MongoDB, Express.js, React.js, Node.js), JavaScript Object Notation (JSON), MySQL, Mongoose, Bootstrap, React Bootstrap, Bulma, Progressive Web Apps (PWA), Local Storage, Session Storage, User Authentication, Continuous Integration (CI), Model-View-Controller (MVC), Application Programming Interfaces (API), Asynchronous JavaScript and XML (AJAX), HTTP Request Methods, Agile, SCRUM, Heroku, Git, GitHub, Visual Studio Code, Scripts, Java, Python, and GIMP.</p>
           </section>
-
       </Container>
-
     </div>
   )
 }

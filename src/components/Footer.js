@@ -27,7 +27,7 @@ function Footer() {
         <img className="stackoverflow" src={stackoverflow} alt="Stack Overflow icon linking to my Stack Overflow account." /> 
       </a>
       <div>
-        <p>© annamarlena designs 2023</p>
+        <p>© Anna Marlena Designs 2023</p><br></br>
       </div>
  
     </footer>
