@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d8bbe942.css",
-    "main.js": "/react-portfolio/static/js/main.8a3bb4ef.js",
+    "main.css": "/react-portfolio/static/css/main.759dd7c7.css",
+    "main.js": "/react-portfolio/static/js/main.8ef92c12.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/petopia.png": "/react-portfolio/static/media/petopia.3693ce5a163cd41889f8.png",
+    "static/media/fullProfilePic.jpg": "/react-portfolio/static/media/fullProfilePic.679da3563e8df9b44bab.jpg",
     "static/media/kitchen.png": "/react-portfolio/static/media/kitchen.66f8328805453a82b69e.png",
     "static/media/socialGarden.png": "/react-portfolio/static/media/socialGarden.a324dc297581723291c8.png",
     "static/media/artdeco1.jpg": "/react-portfolio/static/media/artdeco1.f79af71887d3a8544071.jpg",
+    "static/media/profilePic2.jpg": "/react-portfolio/static/media/profilePic2.1b54e04463a1aab060f1.jpg",
     "static/media/eat.png": "/react-portfolio/static/media/eat.b18d8bf92a55b09d993c.png",
     "static/media/tracker.png": "/react-portfolio/static/media/tracker.f4baa2023efb167f558b.png",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.787ce31ad24a6e160ef6.pdf",
@@ -20,12 +22,12 @@
     "static/media/stackoverflow.png": "/react-portfolio/static/media/stackoverflow.c2ddea5313ab995d9f3d.png",
     "static/media/profilePic.jpg": "/react-portfolio/static/media/profilePic.ced96fc5c6b0c2004d36.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.d8bbe942.css.map": "/react-portfolio/static/css/main.d8bbe942.css.map",
-    "main.8a3bb4ef.js.map": "/react-portfolio/static/js/main.8a3bb4ef.js.map",
+    "main.759dd7c7.css.map": "/react-portfolio/static/css/main.759dd7c7.css.map",
+    "main.8ef92c12.js.map": "/react-portfolio/static/js/main.8ef92c12.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8bbe942.css",
-    "static/js/main.8a3bb4ef.js"
+    "static/css/main.759dd7c7.css",
+    "static/js/main.8ef92c12.js"
   ]
 }
