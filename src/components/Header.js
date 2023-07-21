@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavLink from 'react-bootstrap/esm/NavLink';
-import signature from './signature.png'
+import signature from './assets/signature.png'
 
 function Header({currentPage}) {
   console.log(currentPage)

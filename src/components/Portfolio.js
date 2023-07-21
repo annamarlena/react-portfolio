@@ -4,16 +4,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import notetaker from './notetaker.jpg'
-import petopia from './petopia.png'
-import kitchen from './kitchen.png'
-import skyInvaders from './skyInvaders.jpg'
-import discomania from './discomania.jpg'
-import eat from './eat.png'
-import eCommerce from './eCommerce.png'
-import tracker from './tracker.png'
-import socialGarden from './socialGarden.png'
-// import insomnia from './insomnia.png'
+import notetaker from './assets/notetaker.jpg'
+import petopia from './assets/petopia.png'
+import kitchen from './assets/kitchen.png'
+import skyInvaders from './assets/skyInvaders.jpg'
+import discomania from './assets/discomania.jpg'
+import eat from './assets/eat.png'
+import eCommerce from './assets/eCommerce.png'
+import tracker from './assets/tracker.png'
+import socialGarden from './assets/socialGarden.png'
+// import insomnia from './assets/insomnia.png'
 
 function Portfolio() {
 

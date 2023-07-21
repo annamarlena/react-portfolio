@@ -1,5 +1,5 @@
 import './App.css'
-import artdeco1 from './components/artdeco1.jpg'
+import artdeco1 from './components/assets/artdeco1.jpg'
 import Header from './components//Header'
 import About from './components/About'
 import Portfolio from "./components/Portfolio"

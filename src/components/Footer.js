@@ -1,7 +1,7 @@
 import './footer.css';
-import stackoverflow from './stackoverflow.png'
-import github from './github.png'
-import linkedin from './linkedin.png'
+import stackoverflow from './assets/stackoverflow.png'
+import github from './assets/github.png'
+import linkedin from './assets/linkedin.png'
 
 function Footer() {
 

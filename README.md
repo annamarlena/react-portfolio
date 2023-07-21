@@ -12,7 +12,7 @@ The purpose of this project was to create a responsive, professional portfolio w
 
 ## Screenshot
 
-![Here's a screenshot of the About Me page](./src/components/screenshot.png)
+![Here's a screenshot of the About Me page](./src/components/assets/screenshot.png)
 
 
 ### Image Attribution

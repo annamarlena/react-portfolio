@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import profilePic from './profilePic.jpg'
-import fullProfilePic from './fullProfilePic.jpg'
+import profilePic from './assets/profilePic.jpg'
+import fullProfilePic from './assets/fullProfilePic.jpg'
 // import fullProfilePic2 from './fullProfilePic2.jpg'
 
 function About() {
@@ -19,13 +19,13 @@ function About() {
           </Col>
           <Col sm={12} md={12} lg={6}>
             <section className="section1">
-              <h3>Hi, I'm Marlena!</h3>
-              <p>I bring valuable life experience and a mature perspective to my creative endeavors.</p> 
-              <p>My customer service background equips me with exceptional interpersonal skills, allowing me to understand user needs and create intuitive web experiences.</p>
-              <p>My creative mindset gives me a fresh approach to problem-solving, enabling me to think outside the box and innovate in the ever-evolving field of web development.</p>
+              <h3>Hi, I'm Marlena!</h3><br></br>
+              <p>I bring valuable life experience to my creative endeavors.</p> 
+              {/* <p>My creative mindset gives me a fresh approach to problem-solving, enabling me to think outside the box and innovate in the ever-evolving field of web development.</p> */}
                 {/* Moreover, my decision to embark on a career change demonstrates courage, adaptability, and a hunger for personal growth.  */}
-              <p>I embrace new and emerging technologies, and am currently learning AI Prompt Engineering through online coursework.</p>
               <p>My diverse background brings a rich tapestry of knowledge, ideas, and perspectives to my work, allowing me to create projects that resonate with a broader audience. </p> 
+              <p>My customer service background equips me with exceptional interpersonal skills, allowing me to understand user needs and create intuitive web experiences.</p>
+              <p>As a lifelong learner, I embrace new and emerging technologies, and am currently learning AI Prompt Engineering through online coursework.</p>
             </section>
           </Col>
         </Row>

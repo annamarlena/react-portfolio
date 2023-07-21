@@ -2,9 +2,9 @@ import './contact.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import emailjs from '@emailjs/browser';
-import stackoverflow from './stackoverflow.png'
-import github from './github.png'
-import linkedin from './linkedin.png'
+import stackoverflow from './assets/stackoverflow.png'
+import github from './assets/github.png'
+import linkedin from './assets/linkedin.png'
 import React, { useRef } from 'react'
 
 const Contact = () => {
