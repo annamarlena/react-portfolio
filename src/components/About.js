@@ -25,7 +25,7 @@ function About() {
               {/* Moreover, my decision to embark on a career change demonstrates courage, adaptability, and a hunger for personal growth.  */}
               <p>My diverse background provides a rich tapestry of knowledge, ideas, and perspectives to my work, allowing me to create projects that resonate with a broader audience. </p> 
               <p>My customer service background equips me with exceptional interpersonal skills, allowing me to understand user needs and create intuitive web experiences.</p>
-              <p>As a lifelong learner, I embrace new and emerging technologies. I'm currently learning Prompt Engineering.</p>
+              <p>As a lifelong learner, I embrace new and emerging technologies and am always adding to my skill set.</p>
             </section>
           </Col>
         </Row>
