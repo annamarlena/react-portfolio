@@ -22,10 +22,10 @@ function About() {
               <h3>Hi, I'm Marlena!</h3><br></br>
               <p>I bring valuable life experience to my creative endeavors.</p> 
               {/* <p>My creative mindset gives me a fresh approach to problem-solving, enabling me to think outside the box and innovate in the ever-evolving field of web development.</p> */}
-                {/* Moreover, my decision to embark on a career change demonstrates courage, adaptability, and a hunger for personal growth.  */}
-              <p>My diverse background brings a rich tapestry of knowledge, ideas, and perspectives to my work, allowing me to create projects that resonate with a broader audience. </p> 
+              {/* Moreover, my decision to embark on a career change demonstrates courage, adaptability, and a hunger for personal growth.  */}
+              <p>My diverse background provides a rich tapestry of knowledge, ideas, and perspectives to my work, allowing me to create projects that resonate with a broader audience. </p> 
               <p>My customer service background equips me with exceptional interpersonal skills, allowing me to understand user needs and create intuitive web experiences.</p>
-              <p>As a lifelong learner, I embrace new and emerging technologies, and am currently learning AI Prompt Engineering through online coursework.</p>
+              <p>As a lifelong learner, I embrace new and emerging technologies, and am currently learning AI Prompt Engineering.</p>
             </section>
           </Col>
         </Row>
