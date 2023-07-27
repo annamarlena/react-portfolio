@@ -15,6 +15,7 @@ width: 80%;
   padding: 30px;
   outline: 2px solid #f4b955;
   margin: 50px;
+  overflow: scroll;
 }
 
 .section3 {
